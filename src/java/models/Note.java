@@ -9,37 +9,37 @@ import java.io.Serializable;
 
 public class Note implements Serializable {
     //Variables
-    private String titleInput;
-    private String contentInput;
+    private String titleInfo;
+    private String contentInfo;
     
     //Default no-arg constructor
     public Note() {
-        titleInput = "This is the title";
-        contentInput= "Contents go here";
+        titleInfo = "";
+        contentInfo = "";
     }
     
     //Note Edit Constructor
-    public Note(String titleInput, String contentInput) {
-        this.titleInput = titleInput;
-        this.contentInput = contentInput;
+    public Note(String titleInfo, String contentInfo) {
+        this.titleInfo = titleInfo;
+        this.contentInfo = contentInfo;
     }
 
     //Getters
-    public String getTitleInput() {
-        return this.titleInput;
+    public String getTitleInfo() {
+        return this.titleInfo;
     }
     
-    public String getContentInput() {
-        return this.contentInput;
+    public String getContentInfo() {
+        return this.contentInfo;
     }
     
     //Setters
-    public void setTitleInput(String titleInput) {
-        this.titleInput = titleInput;
+    public void setTitleInfo(String titleInfo) {
+        this.titleInfo = titleInfo;
     }
 
-    public void setContentInput(String contentInput) {
-        this.contentInput = contentInput;
+    public void setContentInfo(String contentInfo) {
+        this.contentInfo = contentInfo;
     } 
 }
 

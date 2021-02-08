@@ -15,8 +15,11 @@
         <h1>Simple Note Keeper!</h1>
         <h2>Edit Note</h2>
         <form>
-            <p>Title:</p><input type="text" name="titleInput">
-            <p>Contents:</p><input type="text" name="contentInput">
+            Title: ${note.titleInfo}<input type="text" name="titleInfo">
+            <br>
+            Contents: <textarea>
+            </textarea>
+            <br>
             <input type="button" value="Save">
         </form>
     </body>
